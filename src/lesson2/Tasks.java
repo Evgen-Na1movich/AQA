@@ -20,4 +20,17 @@ public class Tasks {
             System.out.println("Сумма положительная");
         } else System.out.println("Сумма отрицательная");
     }
+
+    public static void printColor() {
+        System.out.println("*****task3*****");
+        Random random = new Random();
+        int value = random.nextInt(1001) - 500;
+        if (value <= 0) {
+            System.out.println("Красный");
+        } else if (value > 0 && value <= 100) {
+            System.out.println("Желтый");
+        } else {
+            System.out.println("Зеленый");
+        }
+    }
 }
