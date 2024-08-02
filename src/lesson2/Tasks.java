@@ -24,13 +24,14 @@ public class Tasks {
     public static void printColor() {
         System.out.println("*****task3*****");
         Random random = new Random();
-        int value = random.nextInt(1001) - 500;
+        int value = random.nextInt(401) - 200;
         if (value <= 0) {
-            System.out.println("Красный");
+            System.out.println("Красный");
         } else if (value > 0 && value <= 100) {
             System.out.println("Желтый");
         } else {
             System.out.println("Зеленый");
         }
     }
+
 }
