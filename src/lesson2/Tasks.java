@@ -34,4 +34,16 @@ public class Tasks {
         }
     }
 
+    public static boolean isSumInRange(int a, int b) {
+        int sum = a + b;
+        return sum >= 10 && sum <= 20;
+    }
+
+    public static void printPositiveOrNegative(int number) {
+        if (number >= 0) {
+            System.out.println("Положительное число");
+        } else {
+            System.out.println("Отрицательное число");
+        }
+    }
 }

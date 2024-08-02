@@ -7,6 +7,14 @@ public class Main {
         printThreeWords();
         checkSumSign();
         printColor();
+
+        System.out.println("*****task4*****");
+        System.out.println(isSumInRange(5, 7)); // true
+        System.out.println(isSumInRange(-5, 6)); // false
+
+        printPositiveOrNegative(10); // Положительное число
+        printPositiveOrNegative(-5); // Отрицательное число
+        printPositiveOrNegative(0);
     }
 }
 
