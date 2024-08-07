@@ -23,6 +23,8 @@ public class Main {
         System.out.println(isPositiveOrNegative(0));    // false
         System.out.println(isPositiveOrNegative(10));   // false
 
+        printString("Smile", 3);
+
     }
 }
 

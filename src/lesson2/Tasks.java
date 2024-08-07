@@ -64,4 +64,11 @@ public class Tasks {
         System.out.println("*****task7*****");
         return number < 0;
     }
+
+    public static void printString(String msg, int count){
+        System.out.println("*****task8*****");
+        for (int i = 0; i < count; i++) {
+            System.out.println(msg);
+        }
+    }
 }
