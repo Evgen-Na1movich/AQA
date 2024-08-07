@@ -32,6 +32,8 @@ public class Main {
 
         arrayChange();
 
+        arrayChangeIfNumberLess6();
+
     }
 }
 
