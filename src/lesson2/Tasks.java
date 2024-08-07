@@ -27,11 +27,22 @@ public class Tasks {
         int value = random.nextInt(401) - 200;
         if (value <= 0) {
             System.out.println("Красный");
-        } else if (value > 0 && value <= 100) {
+        } else if ( value <= 100) {
             System.out.println("Желтый");
         } else {
             System.out.println("Зеленый");
         }
+    }
+
+    public static void compareNumbers() {
+        System.out.println("*****task4*****");
+        Random random = new Random();
+        int a = random.nextInt(201) - 100;
+        int b = random.nextInt(201) - 100;
+        if (a >= b) {
+            System.out.println("a >= b");
+        }
+        else System.out.println("a < b");
     }
 
     public static boolean isSumInRange(int a, int b) {
@@ -40,6 +51,7 @@ public class Tasks {
     }
 
     public static void printPositiveOrNegative(int number) {
+        System.out.println("*****task6*****");
         if (number >= 0) {
             System.out.println("Положительное число");
         } else {

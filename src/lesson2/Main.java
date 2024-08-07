@@ -7,8 +7,9 @@ public class Main {
         printThreeWords();
         checkSumSign();
         printColor();
+        compareNumbers();
 
-        System.out.println("*****task4*****");
+        System.out.println("*****task5*****");
         System.out.println(isSumInRange(5, 7)); // true
         System.out.println(isSumInRange(-5, 6)); // false
 
