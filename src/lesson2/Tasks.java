@@ -46,6 +46,7 @@ public class Tasks {
     }
 
     public static boolean isSumInRange(int a, int b) {
+        System.out.println("*****task5*****");
         int sum = a + b;
         return sum >= 10 && sum <= 20;
     }
@@ -57,5 +58,10 @@ public class Tasks {
         } else {
             System.out.println("Отрицательное число");
         }
+    }
+
+    public static boolean isPositiveOrNegative(int number){
+        System.out.println("*****task7*****");
+        return number < 0;
     }
 }
