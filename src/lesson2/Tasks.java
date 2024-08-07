@@ -134,4 +134,11 @@ public class Tasks {
             System.out.println();
         }
     }
+
+    public static int[] createArray(int len, int initialValue){
+        System.out.println("*****task14*****");
+        int[] array = new int[len];
+        Arrays.fill(array, initialValue);
+        return array;
+    }
 }

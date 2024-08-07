@@ -1,5 +1,7 @@
 package lesson2;
 
+import java.util.Arrays;
+
 import static lesson2.Tasks.*;
 
 public class Main {
@@ -38,6 +40,7 @@ public class Main {
 
         matrix();
 
+        System.out.println(Arrays.toString(createArray(5,3)));
     }
 }
 
