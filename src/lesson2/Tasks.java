@@ -117,4 +117,21 @@ public class Tasks {
         System.out.println("Измененный массив");
         System.out.println(Arrays.toString(array));
     }
+
+    public static void matrix(){
+        System.out.println("*****task13*****");
+        Random random = new Random();
+        int n = random.nextInt(10);
+        int[][] matrix = new int[n][n];
+        for (int i = 0; i < n; i++) {
+            matrix[i][i] = 1;
+            matrix[i][n - i - 1] = 1;
+        }
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                System.out.print(matrix[i][j] + " ");
+            }
+            System.out.println();
+        }
+    }
 }
