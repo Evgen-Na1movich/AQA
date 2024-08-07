@@ -95,8 +95,17 @@ public class Tasks {
         System.out.println(Arrays.toString(array));
     }
 
-    public static void arrayChangeIfNumberLess6(){
+    public static void arrayLengthNumber(){
         System.out.println("*****task11*****");
+        int[] array = new int[100];
+        for (int i = 0; i < array.length; i++) {
+            array[i] = i + 1;
+        }
+        System.out.println(Arrays.toString(array));
+    }
+
+    public static void arrayChangeIfNumberLess6(){
+        System.out.println("*****task12*****");
         int[] array = { 1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1 };
         System.out.println("Исходный массив:");
         System.out.println(Arrays.toString(array));

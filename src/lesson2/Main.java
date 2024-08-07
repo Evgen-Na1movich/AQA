@@ -15,13 +15,13 @@ public class Main {
         System.out.println(isSumInRange(5, 7)); // true
         System.out.println(isSumInRange(-5, 6)); // false
 
-        printPositiveOrNegative(10); // Положительное число
-        printPositiveOrNegative(-5); // Отрицательное число
+        printPositiveOrNegative(7); // Положительное число
+        printPositiveOrNegative(-2); // Отрицательное число
         printPositiveOrNegative(0);
 
-        System.out.println(isPositiveOrNegative(-5));  // true
+        System.out.println(isPositiveOrNegative(-4));  // true
         System.out.println(isPositiveOrNegative(0));    // false
-        System.out.println(isPositiveOrNegative(10));   // false
+        System.out.println(isPositiveOrNegative(2));   // false
 
         printString("Smile", 3);
 
@@ -31,6 +31,8 @@ public class Main {
         System.out.println(isLeapYear(2023)); // false
 
         arrayChange();
+
+        arrayLengthNumber();
 
         arrayChangeIfNumberLess6();
 
