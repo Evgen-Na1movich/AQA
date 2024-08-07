@@ -25,6 +25,11 @@ public class Main {
 
         printString("Smile", 3);
 
+        System.out.println(isLeapYear(2024)); // true
+        System.out.println(isLeapYear(1900)); // false
+        System.out.println(isLeapYear(2000)); // true
+        System.out.println(isLeapYear(2023)); // false
+
     }
 }
 

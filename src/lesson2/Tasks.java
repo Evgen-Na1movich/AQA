@@ -71,4 +71,9 @@ public class Tasks {
             System.out.println(msg);
         }
     }
+
+    public static boolean isLeapYear(int year) {
+        System.out.println("*****task9*****");
+        return (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0));
+    }
 }
