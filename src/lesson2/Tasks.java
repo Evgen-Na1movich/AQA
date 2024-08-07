@@ -1,6 +1,9 @@
 package lesson2;
 
+import java.util.Arrays;
 import java.util.Random;
+
+
 
 public class Tasks {
     public static void printThreeWords() {
@@ -75,5 +78,20 @@ public class Tasks {
     public static boolean isLeapYear(int year) {
         System.out.println("*****task9*****");
         return (year % 4 == 0 && (year % 100 != 0 || year % 400 == 0));
+    }
+
+    public static void  arrayChange(){
+        System.out.println("*****task10*****");
+        int[] array = {1, 1, 0, 0, 1, 0, 1, 1, 0, 0};
+        System.out.println("Исходный массив:");
+        System.out.println(Arrays.toString(array));
+        for (int i = 0; i < array.length; i++) {
+            if(array[i]==0){
+                array[i] = 1;
+            }
+            else array[i] = 0;
+        }
+        System.out.println("Измененный массив");
+        System.out.println(Arrays.toString(array));
     }
 }

@@ -30,6 +30,8 @@ public class Main {
         System.out.println(isLeapYear(2000)); // true
         System.out.println(isLeapYear(2023)); // false
 
+        arrayChange();
+
     }
 }
 
